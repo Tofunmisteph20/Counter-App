@@ -1,5 +1,5 @@
 let header1 = document.getElementsByTagName('h1')[0];
-let header2 = document.getElementsByTagName('h2')[0];
+let header2 = document.getElementsByTagName('h1')[1];
 
 let btn1 = document.getElementsByTagName('button')[0]
 let btn2 = document.getElementsByTagName('button')[1]
@@ -12,22 +12,21 @@ btn1.addEventListener('click', ()=>{
     header2.textContent = score
     if(score<0){
         document.body.style.backgroundColor = 'red'
+        console.log('clicked');
      }else if(score==0){
-        document.body.style.backgroundColor ='yellow'
+        document.body.style.backgroundColor = 'whitesmoke'
+        console.log('clicked');
      }
 })
 btn2.addEventListener('click', ()=>{
     score = 0
     header2.textContent = score
 
-    // if(score<0){
-    //     document.body.style.backgroundColor = 'red'
           if(score==0){
           document.body.style.backgroundColor ='transparent'
+          console.log('clicked');
           }
-    // }else if(score>0){
-    //     document.body.style.backgroundColor='green'
-    // }
+
 })
 btn3.addEventListener('click', ()=>{
     score++
@@ -35,6 +34,10 @@ btn3.addEventListener('click', ()=>{
 
      if(score>0){
      document.body.style.backgroundColor='green'
+     console.log('clicked');
+ }else if(score==0){
+    document.body.style.backgroundColor = 'whitesmoke'
+    console.log('clicked');
  }
 })
 
