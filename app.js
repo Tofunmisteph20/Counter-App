@@ -35,5 +35,18 @@ btn3.addEventListener('click', ()=>{
  }else if(score==0){
     document.body.style.backgroundColor = 'whitesmoke'
  }
+if(score==5){
+    header1.textContent = 'Easy Comrade..'
+}else if(score<5){
+    header1.textContent = 'NUMBER OF WIVES'
+}
+else if(score==10){
+    header1.textContent = 'Ha!! Fear God '
+}else if(score==20){
+    header1.textContent = 'IS THAT YOU, VINCENT??'
+}else if(score>24){
+    document.body.style.backgroundColor = 'black'
+    header1.textContent = 'VINCENT GET OUT OF HERE!!'
+    header1.style.color = 'white'
+}
 })
-
