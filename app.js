@@ -14,7 +14,7 @@ btn1.addEventListener('click', ()=>{
         document.body.style.backgroundColor = 'red'
      }else if(score==0){
         document.body.style.backgroundColor ='yellow'
-    // }
+     }
 })
 btn2.addEventListener('click', ()=>{
     score = 0
