@@ -15,6 +15,16 @@ btn1.addEventListener('click', ()=>{
         console.log('clicked');
      }else if(score==0){
         document.body.style.backgroundColor = 'whitesmoke'
+     }else if(score<5){
+        header1.textContent = 'NUMBER OF WIVES' 
+     }else if(score<10){
+        header1.textContent = 'Easy Comrade..'
+     }else if(score<20){
+        header1.textContent = 'Ha!! Fear God'
+     }else if(score<25){
+        header1.textContent = 'IS THAT YOU, VINCENT??'
+        document.body.style.backgroundColor = 'green'
+        header1.style.color = 'black'
      }
 })
 btn2.addEventListener('click', ()=>{
@@ -23,6 +33,7 @@ btn2.addEventListener('click', ()=>{
 
           if(score==0){
           document.body.style.backgroundColor ='transparent'
+          header1.textContent = 'NUMBER OF WIVES'
           }
 
 })
