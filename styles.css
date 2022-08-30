@@ -7,9 +7,12 @@ button{
     height: 40px;
     border-radius: 8px;
 }
+button:hover{
+    background-color: blue;
+}
 @media (min-width:320px)  {
     body{
-        background-color: red;
+        background-color: white;
     }
     h1{
         margin-right: 20px;

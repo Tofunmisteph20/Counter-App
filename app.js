@@ -15,7 +15,6 @@ btn1.addEventListener('click', ()=>{
         console.log('clicked');
      }else if(score==0){
         document.body.style.backgroundColor = 'whitesmoke'
-        console.log('clicked');
      }
 })
 btn2.addEventListener('click', ()=>{
@@ -24,7 +23,6 @@ btn2.addEventListener('click', ()=>{
 
           if(score==0){
           document.body.style.backgroundColor ='transparent'
-          console.log('clicked');
           }
 
 })
@@ -34,10 +32,8 @@ btn3.addEventListener('click', ()=>{
 
      if(score>0){
      document.body.style.backgroundColor='green'
-     console.log('clicked');
  }else if(score==0){
     document.body.style.backgroundColor = 'whitesmoke'
-    console.log('clicked');
  }
 })
 
