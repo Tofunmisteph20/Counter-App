@@ -34,6 +34,7 @@ btn2.addEventListener('click', ()=>{
           if(score==0){
           document.body.style.backgroundColor ='transparent'
           header1.textContent = 'NUMBER OF WIVES'
+          header1.style.color = 'black'
           }
 
 })
